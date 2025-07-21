@@ -1,6 +1,8 @@
 # WSL Configuration Management Module
 # Provides WSL configuration file generation, validation and management functionality
 
+Set-StrictMode -Version Latest
+
 # Configuration file path constants
 $script:WSLConfigPath = "$env:USERPROFILE\.wslconfig"
 $script:ConfigTemplatesPath = "$PSScriptRoot\config-templates"

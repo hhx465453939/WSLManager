@@ -1,6 +1,8 @@
 # WSL自动备份脚本
 # 使用方法: .\WSL-AutoBackup.ps1 -DistributionName "Ubuntu-20.04" -BackupPath "C:\WSL-Backups"
 
+Set-StrictMode -Version Latest
+
 param(
     [string]$DistributionName = "Ubuntu-20.04",
     [string]$BackupPath = "C:\WSL-Backups",

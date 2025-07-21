@@ -1,6 +1,8 @@
 # WSL Operations Management - Unified Command Line Interface
 # Provides unified cmdlets for all WSL management operations
 
+Set-StrictMode -Version Latest
+
 # Import all required modules
 $ModulePath = $PSScriptRoot
 $RequiredModules = @(

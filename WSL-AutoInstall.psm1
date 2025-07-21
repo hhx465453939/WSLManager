@@ -1,6 +1,8 @@
 # WSL2自动安装模块
 # WSL2 Automatic Installation Module
 
+Set-StrictMode -Version Latest
+
 <#
 .SYNOPSIS
 WSL2自动安装和配置模块
