@@ -1,0 +1,24 @@
+﻿[experimental]
+sparseVhd=true
+autoMemoryReclaim=gradual
+
+[wsl2]
+vmIdleTimeout=30000
+useWindowsDnsCache=true
+localhostForwarding=true
+memory=8GB
+sparseVhd=false
+nestedVirtualization=true
+networkingMode=nat
+swap=2GB
+autoMemoryReclaim=gradual
+generateHosts=true
+processors=4
+firewall=true
+dnsTunneling=false
+generateResolvConf=true
+autoProxy=true
+kernelCommandLine=cgroup_no_v1=all systemd.unified_cgroup_hierarchy=1
+pageReporting=true
+guiApplications=false
+

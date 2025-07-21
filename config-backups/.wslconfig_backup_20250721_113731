@@ -1,0 +1,12 @@
+﻿[wsl2]
+sparseVhd=false
+processors=4
+pageReporting=true
+kernelCommandLine=cgroup_no_v1=all systemd.unified_cgroup_hierarchy=1
+nestedVirtualization=true
+memory=8GB
+autoMemoryReclaim=gradual
+localhostForwarding=true
+guiApplications=false
+swap=2GB
+

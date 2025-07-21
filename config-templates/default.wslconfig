@@ -1,0 +1,40 @@
+# WSL默认配置模板
+# 适用于一般开发和日常使用
+
+[wsl2]
+# 内存限制 (默认为系统内存的50%)
+memory=4GB
+
+# 处理器数量 (默认为系统处理器数量)
+processors=2
+
+# 交换文件大小
+swap=1GB
+
+# 交换文件路径
+swapFile=%USERPROFILE%\AppData\Local\Temp\wsl-swap.vhdx
+
+# 启用localhost转发
+localhostForwarding=true
+
+# 禁用嵌套虚拟化 (提高性能)
+nestedVirtualization=false
+
+# 启用页面报告 (内存优化)
+pageReporting=true
+
+# 启用GUI应用程序支持
+guiApplications=true
+
+# 禁用调试控制台
+debugConsole=false
+
+[experimental]
+# 自动内存回收 (gradual/dropcache/disabled)
+autoMemoryReclaim=gradual
+
+# 启用稀疏VHD (节省磁盘空间)
+sparseVhd=true
+
+# 使用Windows DNS缓存
+useWindowsDnsCache=false

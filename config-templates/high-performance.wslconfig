@@ -1,0 +1,40 @@
+# WSL高性能配置模板
+# 适用于需要高性能计算的场景
+
+[wsl2]
+# 分配更多内存
+memory=8GB
+
+# 使用更多处理器
+processors=4
+
+# 较大的交换文件
+swap=2GB
+
+# 交换文件路径
+swapFile=%USERPROFILE%\AppData\Local\Temp\wsl-swap.vhdx
+
+# 启用localhost转发
+localhostForwarding=true
+
+# 启用嵌套虚拟化 (如需要)
+nestedVirtualization=false
+
+# 启用页面报告
+pageReporting=true
+
+# 启用GUI应用程序支持
+guiApplications=true
+
+# 禁用调试控制台
+debugConsole=false
+
+[experimental]
+# 禁用自动内存回收以获得最佳性能
+autoMemoryReclaim=disabled
+
+# 禁用稀疏VHD以获得更好的I/O性能
+sparseVhd=false
+
+# 使用Windows DNS缓存
+useWindowsDnsCache=true

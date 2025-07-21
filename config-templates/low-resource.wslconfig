@@ -1,0 +1,40 @@
+# WSL低资源配置模板
+# 适用于资源受限的系统
+
+[wsl2]
+# 限制内存使用
+memory=2GB
+
+# 使用较少处理器
+processors=1
+
+# 较小的交换文件
+swap=512MB
+
+# 交换文件路径
+swapFile=%USERPROFILE%\AppData\Local\Temp\wsl-swap.vhdx
+
+# 启用localhost转发
+localhostForwarding=true
+
+# 禁用嵌套虚拟化
+nestedVirtualization=false
+
+# 启用页面报告 (内存优化)
+pageReporting=true
+
+# 禁用GUI应用程序以节省资源
+guiApplications=false
+
+# 禁用调试控制台
+debugConsole=false
+
+[experimental]
+# 启用积极的内存回收
+autoMemoryReclaim=gradual
+
+# 启用稀疏VHD节省磁盘空间
+sparseVhd=true
+
+# 使用Windows DNS缓存
+useWindowsDnsCache=true
