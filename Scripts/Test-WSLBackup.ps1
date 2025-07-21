@@ -1,7 +1,7 @@
 # WSL备份功能测试脚本
 
 # 导入模块
-Import-Module "$PSScriptRoot\WSL-BackupManager.psm1" -Force
+Import-Module ..\Modules\WSL-BackupManager.psm1 -Force
 
 Write-Host "=== WSL备份功能测试 ===" -ForegroundColor Cyan
 

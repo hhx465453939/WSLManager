@@ -7,7 +7,7 @@ Write-Host "Testing WSL Backup Manager..." -ForegroundColor Cyan
 
 try {
     # Import the module
-    Import-Module "$PSScriptRoot\WSL-BackupManager.psm1" -Force -ErrorAction Stop
+    Import-Module ..\Modules\WSL-BackupManager.psm1 -Force -ErrorAction Stop
     Write-Host "Module imported successfully" -ForegroundColor Green
     
     # Check available functions

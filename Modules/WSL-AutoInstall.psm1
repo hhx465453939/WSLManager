@@ -12,7 +12,7 @@ WSL2自动安装和配置模块
 #>
 
 # Import required modules
-Import-Module .\WSL-Detection.psm1 -Force
+Import-Module "$PSScriptRoot\WSL-Detection.psm1" -Force
 
 #region Windows功能管理
 

@@ -5,7 +5,7 @@ Write-Host "=== WSL Permission Management Mock Test ===" -ForegroundColor Green
 try {
     # Import module
     Write-Host "Importing WSL-SecurityManager module..." -ForegroundColor Cyan
-    Import-Module .\WSL-SecurityManager.psm1 -Force
+    Import-Module ..\Modules\WSL-SecurityManager.psm1 -Force
     Write-Host "Module imported successfully" -ForegroundColor Green
     
     # Test module functions exist

@@ -1,7 +1,7 @@
 # WSL权限管理功能测试脚本
 
 # 导入模块
-Import-Module .\WSL-SecurityManager.psm1 -Force
+Import-Module ..\Modules\WSL-SecurityManager.psm1 -Force
 
 Write-Host "=== WSL权限管理功能测试 ===" -ForegroundColor Green
 

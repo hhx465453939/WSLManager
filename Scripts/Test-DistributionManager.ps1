@@ -2,7 +2,7 @@
 # Test script for WSL Distribution Manager Module
 
 # Import WSL Distribution Manager Module
-Import-Module .\WSL-DistributionManager.psm1 -Force
+Import-Module ..\Modules\WSL-DistributionManager.psm1 -Force
 
 Write-Host "=== WSL Distribution Manager Module Test ===" -ForegroundColor Green
 

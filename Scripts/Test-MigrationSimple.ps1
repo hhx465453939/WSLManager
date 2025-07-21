@@ -9,7 +9,7 @@ param(
 
 # Import migration module
 try {
-    Import-Module "$PSScriptRoot\WSL-MigrationManager.psm1" -Force
+    Import-Module ..\Modules\WSL-MigrationManager.psm1 -Force
     Write-Host "✓ WSL Migration Manager module loaded" -ForegroundColor Green
 }
 catch {

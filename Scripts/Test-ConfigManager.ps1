@@ -1,7 +1,7 @@
 # WSL配置管理模块测试脚本
 
 # 导入模块
-Import-Module "$PSScriptRoot\WSL-ConfigManager.psm1" -Force
+Import-Module ..\Modules\WSL-ConfigManager.psm1 -Force
 
 Write-Host "=== WSL配置管理模块测试 ===" -ForegroundColor Cyan
 

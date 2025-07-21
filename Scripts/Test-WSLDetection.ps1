@@ -2,7 +2,7 @@
 # Test script for WSL Detection Module
 
 # 导入WSL检测模块
-Import-Module .\WSL-Detection.psm1 -Force
+Import-Module ..\Modules\WSL-Detection.psm1 -Force
 
 Write-Host "=== WSL功能检测模块测试 ===" -ForegroundColor Green
 

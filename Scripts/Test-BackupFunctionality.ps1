@@ -5,7 +5,7 @@ Write-Host "=== WSL Backup Functionality Verification ===" -ForegroundColor Cyan
 
 try {
     # Import the module
-    Import-Module "$PSScriptRoot\WSL-BackupManager.psm1" -Force -ErrorAction Stop
+    Import-Module ..\Modules\WSL-BackupManager.psm1 -Force -ErrorAction Stop
     Write-Host "✓ Module imported successfully" -ForegroundColor Green
     
     # Verify all required functions are available

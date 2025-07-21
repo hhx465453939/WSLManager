@@ -1,7 +1,7 @@
 # WSL Diagnostic Engine Test Script
 
 # Import modules
-Import-Module "$PSScriptRoot\WSL-DiagnosticEngine.psm1" -Force
+Import-Module ..\Modules\WSL-DiagnosticEngine.psm1 -Force
 
 Write-Host "=== WSL Diagnostic Engine Test ===" -ForegroundColor Cyan
 Write-Host "Test time: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')" -ForegroundColor Gray

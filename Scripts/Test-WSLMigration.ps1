@@ -2,9 +2,9 @@
 # Tests for cross-machine environment packaging, transfer, batch deployment and migration validation
 
 # Import required modules
-Import-Module "$PSScriptRoot\WSL-Detection.psm1" -Force
-Import-Module "$PSScriptRoot\WSL-BackupManager.psm1" -Force
-Import-Module "$PSScriptRoot\WSL-MigrationManager.psm1" -Force
+Import-Module ..\Modules\WSL-Detection.psm1 -Force
+Import-Module ..\Modules\WSL-BackupManager.psm1 -Force
+Import-Module ..\Modules\WSL-MigrationManager.psm1 -Force
 
 # Test configuration
 $script:TestDistribution = "Ubuntu-Test-Migration"

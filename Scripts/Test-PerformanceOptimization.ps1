@@ -1,8 +1,8 @@
 # WSL Performance Optimization Module Test Script
 
 # Import modules
-Import-Module "$PSScriptRoot\WSL-ConfigManager.psm1" -Force
-Import-Module "$PSScriptRoot\WSL-PerformanceOptimizer.psm1" -Force
+Import-Module ..\Modules\WSL-ConfigManager.psm1 -Force
+Import-Module ..\Modules\WSL-PerformanceOptimizer.psm1 -Force
 
 Write-Host "=== WSL Performance Optimization Module Test ===" -ForegroundColor Cyan
 

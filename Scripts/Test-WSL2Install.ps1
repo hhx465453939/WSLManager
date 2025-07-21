@@ -2,7 +2,7 @@
 # Test script for WSL2 Auto-Install Module
 
 # Import WSL2 Auto-Install Module
-Import-Module .\WSL-AutoInstall.psm1 -Force
+Import-Module ..\Modules\WSL-AutoInstall.psm1 -Force
 
 Write-Host "=== WSL2 Auto-Install Module Test ===" -ForegroundColor Green
 

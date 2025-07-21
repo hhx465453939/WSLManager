@@ -2,7 +2,7 @@
 # 简单WSL检测测试（无需管理员权限）
 
 # Import WSL Detection Module
-Import-Module .\WSL-Detection.psm1 -Force
+Import-Module ..\Modules\WSL-Detection.psm1 -Force
 
 Write-Host "=== Simple WSL Detection Test ===" -ForegroundColor Green
 

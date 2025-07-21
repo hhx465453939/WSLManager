@@ -1,7 +1,7 @@
 # WSL健康监控模块测试脚本
 
 # 导入模块
-Import-Module "$PSScriptRoot\WSL-HealthMonitor.psm1" -Force
+Import-Module ..\Modules\WSL-HealthMonitor.psm1 -Force
 
 Write-Host "=== WSL健康监控模块测试 ===" -ForegroundColor Cyan
 Write-Host "测试时间: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')" -ForegroundColor Gray

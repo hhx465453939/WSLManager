@@ -6,7 +6,7 @@ param(
 )
 
 # Import the backup manager module
-$ModulePath = Join-Path $PSScriptRoot "WSL-BackupManager.psm1"
+$ModulePath = Join-Path $PSScriptRoot "..\Modules\WSL-BackupManager.psm1"
 if (-not (Test-Path $ModulePath)) {
     Write-Error "WSL-BackupManager.psm1 not found in current directory"
     exit 1
